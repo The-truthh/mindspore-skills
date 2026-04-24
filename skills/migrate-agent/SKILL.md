@@ -150,6 +150,7 @@ Expected outputs may include:
 - config mapping
 - minimal runnable example
 - test or verification hooks when required
+- target-side unit tests when source tests exist or the user requests test migration
 - runtime requirements handoff for readiness checking
 
 ## Stage 4. Verification and Report
@@ -162,6 +163,7 @@ At minimum, verify:
 - migration artifacts produced
 - minimal runnable or import path when possible
 - verification status
+- target-side unit test files, commands, and results when tests were migrated
 - remaining gaps or follow-up work
 
 The final report must include:
